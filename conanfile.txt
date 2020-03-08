@@ -1,0 +1,9 @@
+[requires]
+grpc/1.25.0@inexorgame/stable
+
+[generators]
+cmake
+
+[imports]
+bin, protoc* -> ./build_tools
+bin, grpc_cpp_plugin* -> ./build_tools
