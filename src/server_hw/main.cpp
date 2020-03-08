@@ -4,7 +4,7 @@
 class GreeterServiceImpl final : public helloworld::Greeter::Service
 {
     grpc::Status SayHello(
-        grpc::ServerContext* context,
+        grpc::ServerContext*,
         const helloworld::HelloRequest* request,
         helloworld::HelloReply* reply ) override
     {
